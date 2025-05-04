@@ -33,8 +33,8 @@ const TaskFilter: React.FC = () => {
                                 key={item.value}
                                 onClick={() => setFilter(item.value)}
                                 className={`flex-1 px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${filter === item.value
-                                        ? 'bg-white dark:bg-gray-600 text-indigo-600 dark:text-indigo-400 shadow-sm'
-                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                    ? 'bg-white dark:bg-gray-600 text-indigo-600 dark:text-indigo-400 shadow-sm'
+                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
                                     }`}
                             >
                                 {item.label}
