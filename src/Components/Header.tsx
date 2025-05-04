@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import ThemeToggle from './ThemeToggle';
 import { Search, X, CheckSquare } from 'lucide-react';
 import { useTasks } from '../contexts/TaskContext';
 
@@ -59,8 +58,6 @@ const Header: React.FC = () => {
                             </button>
                         )}
                     </div>
-
-                    <ThemeToggle />
                 </div>
             </div>
         </header>

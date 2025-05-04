@@ -10,4 +10,3 @@ export interface Task {
 
 export type TaskFilter = 'all' | 'active' | 'completed';
 export type SortOption = 'newest' | 'oldest' | 'dueDate' | 'priority';
-export type ThemeMode = 'light' | 'dark' | 'system';
